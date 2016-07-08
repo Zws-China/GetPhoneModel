@@ -3,8 +3,7 @@
 
 
 # Screenshots
-
-http://h.hiphotos.baidu.com/image/pic/item/241f95cad1c8a7862ea5b40d6f09c93d70cf5022.jpg
+![alt text](http://h.hiphotos.baidu.com/image/pic/item/241f95cad1c8a7862ea5b40d6f09c93d70cf5022.jpg "Title")
 
 # How to use
 
