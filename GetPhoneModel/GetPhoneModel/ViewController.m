@@ -7,7 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "WSGetPhoneTypeController.h"
 
+
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
 @interface ViewController ()
 
 @end
@@ -16,7 +20,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(20, 200, kScreenWidth-40, 20)];
+    label.text = [NSString stringWithFormat:@"此设备是：%@",[WSGetPhoneTypeController getPhoneModel]];
+    label.textAlignment = NSTextAlignmentCenter;
+    label.textColor = [UIColor redColor];
+    [self.view addSubview:label];
+    
 }
 
 - (void)didReceiveMemoryWarning {

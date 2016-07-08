@@ -15,6 +15,7 @@
 		888845401D2F52F30038F406 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8888453E1D2F52F30038F406 /* LaunchScreen.storyboard */; };
 		8888454B1D2F52F30038F406 /* GetPhoneModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8888454A1D2F52F30038F406 /* GetPhoneModelTests.m */; };
 		888845561D2F52F30038F406 /* GetPhoneModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888845551D2F52F30038F406 /* GetPhoneModelUITests.m */; };
+		888845661D2F554F0038F406 /* WSGetPhoneTypeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888845651D2F554F0038F406 /* WSGetPhoneTypeController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		888845511D2F52F30038F406 /* GetPhoneModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetPhoneModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		888845551D2F52F30038F406 /* GetPhoneModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetPhoneModelUITests.m; sourceTree = "<group>"; };
 		888845571D2F52F30038F406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888845641D2F554F0038F406 /* WSGetPhoneTypeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGetPhoneTypeController.h; sourceTree = "<group>"; };
+		888845651D2F554F0038F406 /* WSGetPhoneTypeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGetPhoneTypeController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 				888845331D2F52F30038F406 /* AppDelegate.h */,
 				888845341D2F52F30038F406 /* AppDelegate.m */,
 				888845361D2F52F30038F406 /* ViewController.h */,
+				888845631D2F554F0038F406 /* WSGetPhoneTypeController */,
 				888845371D2F52F30038F406 /* ViewController.m */,
 				888845391D2F52F30038F406 /* Main.storyboard */,
 				8888453C1D2F52F30038F406 /* Assets.xcassets */,
@@ -138,6 +142,15 @@
 				888845571D2F52F30038F406 /* Info.plist */,
 			);
 			path = GetPhoneModelUITests;
+			sourceTree = "<group>";
+		};
+		888845631D2F554F0038F406 /* WSGetPhoneTypeController */ = {
+			isa = PBXGroup;
+			children = (
+				888845641D2F554F0038F406 /* WSGetPhoneTypeController.h */,
+				888845651D2F554F0038F406 /* WSGetPhoneTypeController.m */,
+			);
+			path = WSGetPhoneTypeController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +288,7 @@
 				888845381D2F52F30038F406 /* ViewController.m in Sources */,
 				888845351D2F52F30038F406 /* AppDelegate.m in Sources */,
 				888845321D2F52F30038F406 /* main.m in Sources */,
+				888845661D2F554F0038F406 /* WSGetPhoneTypeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
