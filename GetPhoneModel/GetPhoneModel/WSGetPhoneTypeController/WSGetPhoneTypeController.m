@@ -27,8 +27,8 @@
     //机型对照
     NSDictionary *machineDictionary = @{
                                         
-                                        @"i386" : @"iPhone Simulator",
-                                        @"x86_64" : @"iPhone Simulator",
+                                        @"i386" : @"Xcode 模拟器",
+                                        @"x86_64" : @"Xcode 模拟器",
                                         
                                         @"iPhone1,1" : @"iPhone 2G (A1203)",
                                         @"iPhone1,2" : @"iPhone 3G (A1241/A1324)",
