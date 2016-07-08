@@ -106,8 +106,8 @@
 			children = (
 				888845331D2F52F30038F406 /* AppDelegate.h */,
 				888845341D2F52F30038F406 /* AppDelegate.m */,
-				888845361D2F52F30038F406 /* ViewController.h */,
 				888845631D2F554F0038F406 /* WSGetPhoneTypeController */,
+				888845361D2F52F30038F406 /* ViewController.h */,
 				888845371D2F52F30038F406 /* ViewController.m */,
 				888845391D2F52F30038F406 /* Main.storyboard */,
 				8888453C1D2F52F30038F406 /* Assets.xcassets */,
@@ -516,6 +516,7 @@
 				8888455C1D2F52F30038F406 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8888455D1D2F52F30038F406 /* Build configuration list for PBXNativeTarget "GetPhoneModelTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +525,7 @@
 				8888455F1D2F52F30038F406 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		888845601D2F52F30038F406 /* Build configuration list for PBXNativeTarget "GetPhoneModelUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +534,7 @@
 				888845621D2F52F30038F406 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

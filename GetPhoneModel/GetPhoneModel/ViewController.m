@@ -21,8 +21,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSString *phoneModelStr = [WSGetPhoneTypeController getPhoneModel];
     UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(20, 200, kScreenWidth-40, 20)];
-    label.text = [NSString stringWithFormat:@"此设备是：%@",[WSGetPhoneTypeController getPhoneModel]];
+    label.text = [NSString stringWithFormat:@"此设备是：%@",phoneModelStr];
     label.textAlignment = NSTextAlignmentCenter;
     label.textColor = [UIColor redColor];
     [self.view addSubview:label];
